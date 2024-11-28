@@ -1,0 +1,293 @@
+/* Sayfa için etkileyici renk geçişi */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh; /* Sayfa yüksekliği */
+    background: linear-gradient(to bottom, #ff7e5f, #feb47b); /* Renk geçişi */
+}
+
+/* Başlık için renk geçişi */
+header {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(45deg, #6a11cb, #2575fc); /* Başlık için farklı geçiş */
+    color: white;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+/* İçerik kısmı */
+.content {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(255, 255, 255, 0.8); /* Şeffaf arka plan */
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+/* Footer için renk geçişi */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #ff6a00, #ee0979); /* Footer için renk geçişi */
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+header .logo {
+    width: 100px;  /* Logo boyutunu ayarlayın */
+    height: auto;  /* Yükseklik oranı korunsun */
+    margin-bottom: 10px;  /* Başlık ile logo arasındaki mesafe */
+}
+
+
+
+header .logo {
+    width: 50px;  /* Logoyu 50px genişliğinde yapıyoruz */
+    height: auto;  /* Yükseklik oranını korur */
+    margin-bottom: 10px;  /* Başlık ile logo arasındaki mesafe */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+header .logo {
+    width: 50px;  /* Logoyu küçülttük */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #444;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.main-content {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    nav {
+      flex-direction: column; /* Menü öğelerini alt alta sıralar */
+      text-align: center; /* Metinleri ortaya hizalar */
+    }
+    .container {
+      padding: 10px; /* Daha küçük kenar boşlukları */
+    }
+    .social-icons img {
+      width: 40px; /* Sosyal medya ikonlarını küçültür */
+      margin: 5px;
+    }
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center; /* Ortada hizalar */
+    gap: 10px; /* Aralarına boşluk ekler */
+  }
+  .social-icons img {
+    width: 30px; /* Boyut küçültme */
+    height: auto;
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.project {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Genel ayarlar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2e2e2e; /* Koyu gri arka plan */
+    color: #f5f5f5; /* Açık gri metin */
+}
+
+/* Header stilleri */
+header {
+    background-color: #1a1a1a; /* Daha koyu bir üst bar */
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.project {
+    background: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.project h3 {
+    color: #ff5722;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.project p {
+    color: #cccccc;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Arial fontu kullanılıyor */
+}
+
+
